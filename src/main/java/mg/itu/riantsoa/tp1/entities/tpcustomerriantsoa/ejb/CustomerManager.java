@@ -14,7 +14,7 @@ import mg.itu.riantsoa.tp1.entities.tpcustomerriantsoa.entities.Customer;
 @Stateless
 public class CustomerManager {
     
-     @PersistenceContext(unitName = "customerPU")
+    @PersistenceContext(unitName = "customerPU")
     private EntityManager em;
      
     public List<Customer> getAllCustomers() {  
